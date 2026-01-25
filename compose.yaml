@@ -42,11 +42,21 @@ services:
             interval: 5s
             retries: 5
             timeout: 5s
-
+    redis:
+        container_name: 'wearify-redis'
+        image: redis:7-alpine
+        ports:
+            - '6379:6379'
+        volumes:
+            - redis-data:/data
+        networks:
+            - sail
 networks:
     sail:
         driver: bridge
 
 volumes:
     sail-postgres:
+        driver: local
+    redis-data:
         driver: local
