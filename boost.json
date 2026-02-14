@@ -2,7 +2,7 @@
     "agents": [
         "claude_code"
     ],
-    "herd_mcp": false,
-    "mcp": true,
-    "sail": true
+    "skills": [
+        "laravel-specialist"
+    ]
 }
