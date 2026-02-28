@@ -2,7 +2,5 @@
     "agents": [
         "claude_code"
     ],
-    "skills": [
-        "laravel-specialist"
-    ]
+    "guidelines": true
 }
