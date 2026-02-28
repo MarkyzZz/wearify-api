@@ -25,6 +25,7 @@ Thumbs.db
 .agents
 .claude
 .vscode
+.ai
 .mcp.json
 boost.json
 CLAUDE.md
